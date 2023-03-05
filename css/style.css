@@ -37,7 +37,7 @@ body {
 
 .container {
     width: 100%;
-    max-width: 1158px;
+    /* max-width: 1158px; */
     padding: 0 15px;
     margin: 0 auto;
     /* outline: 2px solid brown; */
@@ -514,10 +514,10 @@ align-items: center;
     text-align: center;
 }
 
-.team-list {
+/* .team-list {
     display: flex;
     gap: 24px;
-        }
+        } */
 
 .team-item {
     width: calc((100% - 72px) / 4);

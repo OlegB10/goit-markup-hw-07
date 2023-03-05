@@ -1,0 +1,19 @@
+  @media screen and (min-width: 768px) {
+.container {
+    max-width: 738px;
+
+  }
+  }
+/* .team > .container {
+    max-width: 552px;
+}
+
+.team-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+        }
+
+.team-item {
+    width: calc((100% - 24px) / 2);
+} */
