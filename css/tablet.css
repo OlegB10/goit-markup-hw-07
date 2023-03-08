@@ -1,6 +1,6 @@
 @media screen and (min-width: 768px) {
   .container {
-    max-width: 738px;
+    max-width: 736px;
 
   }
   
@@ -23,7 +23,7 @@ width: calc((100% - 24px) / 2);
 }
 
 .team > .container {
-    max-width: 552px;
+    max-width: 584px;
 }
 
 .team-list {
