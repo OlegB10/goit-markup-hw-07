@@ -3,11 +3,46 @@
     max-width: 738px;
 
   }
-  }
+  
+
+.values-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    row-gap: 72px;
+    column-gap: 24px;
+}
+
+.values-item {
+width: calc((100% - 24px) / 2);
+}
+
+
+.team-item {
+    width: calc((100% - 24px) / 2);
+}
+
 .team > .container {
     max-width: 552px;
 }
 
+.team-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    row-gap: 64px;
+    column-gap: 24px;
+  }
+
 .team-item {
     width: calc((100% - 24px) / 2);
+    }
+    
+.customers-list {
+    column-gap: 24px;
+    }
+
+.customers-item {
+    width: calc((100% - 48px) / 3);
+    height: 88px;
+    }
 }
