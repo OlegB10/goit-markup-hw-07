@@ -182,9 +182,9 @@ left: 0;
 /* ----------------------------- HERO ---------------------------*/
 
 .hero {
-    padding-top: 188px;
-    padding-bottom: 188px;
-    max-width: 1440px;
+    padding-top: 112px;
+    padding-bottom: 112px;
+    max-width: 428px;
     background-color: #2E2F42;
     background-image: linear-gradient(
        rgba(46, 47, 66, 0.7), 
@@ -197,14 +197,14 @@ left: 0;
 }
 
 .hero-title {
-    font-size: 56px;
-    line-height: 1.07;
+    font-size: 36px;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     color: var(--hero-title-color, #FFFFFF);
-    max-width: 524px;
+    max-width: 320px;
     text-align: center;
     display: block;
-    margin: 0 auto 48px;
+    margin: 0 auto 72px;
     } 
 
 .hero-button {
@@ -252,7 +252,7 @@ left: 0;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%) scale(1);
-    width: 408px;
+    width: 392px;
     min-height: 576px;
     padding: 24px;
     background: #FCFCFC;
@@ -444,16 +444,21 @@ left: 0;
 /* .values-title {} */
 
 .values-list {
-    display: block;
-    gap: 24px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    row-gap: 72px;
+    column-gap: 24px;
 }
 
 .values-item {
-    max-width: 356px;
+    max-width: 396px;
     height: auto;
-    margin-bottom: 72px;
-}
+    }
 
+.values-item:last-child {
+    margin-bottom: 0;
+}
 .values-block-icon {
 display: none;
 }

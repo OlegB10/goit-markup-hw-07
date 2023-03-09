@@ -4,14 +4,17 @@
 
   }
   
-
-.values-list {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    row-gap: 72px;
-    column-gap: 24px;
+.hero {
+    max-width: 768px;
+    background-image: linear-gradient(
+       rgba(46, 47, 66, 0.7), 
+       rgba(46, 47, 66, 0.7)
+       ), url(../images/hero-bg.jpg);
 }
+
+.modal {
+    width: 408px;
+   }
 
 .values-item {
 width: calc((100% - 24px) / 2);

@@ -3,7 +3,25 @@
     max-width: 1160px;
   }
 
-.values {
+.hero {
+    padding-top: 188px;
+    padding-bottom: 188px;
+    max-width: 1440px;
+    background-color: #2E2F42;
+    background-image: linear-gradient(
+       rgba(46, 47, 66, 0.7), 
+       rgba(46, 47, 66, 0.7)
+       ), url(../images/hero-bg.jpg);
+}
+
+.hero-title {
+    font-size: 56px;
+    line-height: 1.07;
+    max-width: 524px;
+    margin: 0 auto 48px;
+    } 
+
+   .values {
     padding-top: 120px;
     padding-bottom: 120px;
 }
