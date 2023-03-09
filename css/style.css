@@ -45,7 +45,6 @@ body {
 
 .container {
     width: 100%;
-    /* max-width: 1158px; */
     padding: 0 16px;
     margin: 0 auto;
     /* outline: 2px solid brown; */
@@ -87,11 +86,12 @@ body {
     padding-top: 24px;
     padding-bottom: 24px;
     border-bottom: 1px solid #E7E9FC;
-}
+   }
+
 .header-container {
     display: flex;
     align-items: center;
-}
+   }
 
 .header-navigation {
     display: flex;
@@ -108,74 +108,69 @@ body {
         }
 
 .header-logo-link {
-        font-family: 'Raleway', sans-serif;
-        font-weight: 800;
-        font-size: 18px;
-        line-height: 1.33;
-        color: #2E2F42;
-        margin-right: 76px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.33;
+    color: #2E2F42;
+    margin-right: 76px;
         }
 
-.header-list{
+.header-list, .header-address {
+    display: none;
+}
+
+/* .mobile-menu-open {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.mobile-menu-open-icon{
+    stroke: #2E2F42;    
+}
+
+.mobile-menu {
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    background-color: #c4f3f3;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.mobile-menu-container {
+    width: 353px;
+    padding-left: 40px;
+    padding-right: 35px;
+}
+
+.mobile-menu-close {
+    display: block;
+    margin-left: auto;
+    margin-bottom: 40px;
+}
+.mobile-menu-list {
     display: flex;
-    gap: 40px;
+    flex-wrap: wrap;
+    gap: 32px;
 }
-
-/* .header-item {} */
-
-.header-link {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #2E2F42;
-    position: relative;
-    transition-property: color;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+.mobile-menu-address {
 }
-
-.header-link:is(:hover, :focus) {
-color: #404BBF;
+.mobile-menu-address-item {
 }
-
-.header-link.current {
-    color: var(--active-color);
+.mobile-soc {
 }
-
-.header-link.current::after {
-content: "";
-width: 100%;
-height: 4px;
-position: absolute;
-background: #404BBF;
-border-radius: 2px;
-top: 44px;
-left: 0;
+.mobile-soc-list {
 }
-   
-
-.header-address {
-    font-style: normal;
-    display: flex;
-    gap: 40px;
+.mobile-soc-item {
 }
-
-.header-address-item {
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        color: #434455;
-        font-style: normal;
-        text-decoration: none;
-        transition-property: color;
-        transition-duration: 250ms;
-        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+.mobile-soc-link {
 }
-
-.header-address-item:is(:hover, :focus) {
-    color: #404BBF;
-}
+.mobile-soc-icon {
+} */
 
 /* ----------------------------- STUDIO ------------------------- */
 
@@ -460,7 +455,7 @@ left: 0;
     margin-bottom: 0;
 }
 .values-block-icon {
-display: none;
+    display: none;
 }
 
 /* .values-item-icons {
@@ -577,9 +572,7 @@ display: none;
 .team-soc-link:is(:hover, :focus) {
   background-color:var(--active-color); 
 }
-
-
-
+    
 /* ----------------------------- CUSTOMERS -------------------------- */
 
 .customers {
@@ -636,22 +629,29 @@ display: none;
 /* ----------------------------- FOOTER ----------------------------- */
 
 .footer {
+    
     background-color: #2E2F42;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 96px;
+    padding-bottom: 96px;
     margin: 0 auto;
 }
 
 .footer-container {
+max-width: 428px;
     display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .footer-logo {
-margin-right: 120px;
+display: flex;
+flex-direction: column;
+align-items: center;
+margin-bottom: 72px;
 }
 
-.footer-list {
+/* .footer-list {
     margin-right: 120px;
-}
+} */
 .footer-navigation {
     font-family: 'Raleway', sans-serif;
     font-weight: 800;
@@ -659,6 +659,7 @@ margin-right: 120px;
     line-height: 1.33;
     color: var(--accent-color, #4D5AE5);
     text-decoration: none;
+    text-align: center;
        }
 
 .footer-navigation-link {
@@ -668,6 +669,7 @@ margin-right: 120px;
     line-height: 1.17;
     letter-spacing: 0.03em;
     color: #F4F4FD;
+    
        }
 
 .footer-text {
@@ -682,6 +684,7 @@ margin-right: 120px;
 .footer-social {
 display: block;
 }
+
 .footer-subtitle {
     font-weight: 500;
     font-size: 16px;
