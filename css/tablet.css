@@ -161,4 +161,19 @@ width: calc((100% - 24px) / 2);
        .btn-subscribe{
         margin-top: 0;
        }
+
+.finger> .container {
+    max-width: 584px;
+}
+
+.finger-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    row-gap: 40px;
+    column-gap: 24px;
+  }
+
+.finger-item {
+    width: calc((100% - 24px) / 2);
+
 }

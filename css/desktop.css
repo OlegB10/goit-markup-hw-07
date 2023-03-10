@@ -177,4 +177,17 @@ margin-bottom: 0;
        .btn-subscribe{
         margin-top: 0;
        }
+
+.filters {
+    padding-top: 96px;
+    padding-bottom: 120px;
+}
+
+.filters-list {
+    margin-bottom: 72px;
+       display: flex;
+    gap: 24px;
+    justify-content: center;
+    }
+
  }
