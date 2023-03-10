@@ -118,6 +118,11 @@
     height: 88px;
 }
 
+.footer {
+    padding-top: 100px;
+    padding-bottom: 100px;
+   }
+
 .footer-container {
     display: flex;
     flex-direction: unset;
@@ -125,8 +130,41 @@
 }
 .footer-logo {
 margin-right: 120px;
+margin-bottom: 0;
+}
+
+.footer-tablet-nav{
+    margin-bottom: 0;
+}
+
+.footer-subtitle {
+  
+    text-align: start;
 }
 
 .footer-soc-list {
     margin-bottom: 0;
 }
+
+.footer-subscribe{
+   margin-left: 80px;
+    }
+
+.subscribe-title{
+    text-align: start;
+}
+
+.subscribe-form{
+    flex-direction: unset;
+    align-items: center;
+          }
+
+.subscribe-input{
+       width: 264px;
+       margin-right: 24px;
+       }
+
+       .btn-subscribe{
+        margin-top: 0;
+       }
+ }

@@ -112,7 +112,42 @@ width: calc((100% - 24px) / 2);
     height: 88px;
     }
 
-    .footer-logo {
-align-items: start;
+.footer-logo {
+    align-items: start;
+    margin-bottom: 0;
 }
+
+.footer-tablet-nav{
+    display: flex;
+    gap: 24px;
+    margin-bottom: 72px;
+}
+
+
+.footer-soc-list {
+    margin-bottom: 0;
+}
+.footer-subscribe{
+    width: 496px;
+   margin: 0;
+    }
+
+.subscribe-title{
+    text-align: start;
+}
+
+.subscribe-form{
+    flex-direction: unset;
+    align-items: start;
+    min-width: 264px;
+          }
+
+.subscribe-input{
+       width: 264px;
+       margin-right: 24px;
+       }
+
+       .btn-subscribe{
+        margin-top: 0;
+       }
 }
