@@ -125,6 +125,8 @@
 }
 .footer-logo {
 margin-right: 120px;
-align-items: start;
 }
- }
+
+.footer-soc-list {
+    margin-bottom: 0;
+}
