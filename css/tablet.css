@@ -166,16 +166,25 @@ width: calc((100% - 24px) / 2);
     margin-top: 0;
        }
 
-.finger> .container {
-    max-width: 584px;
+.filters > .container {
+    max-width: 736px;
+    height: 100%;
+}
+
+.filters-list {
+  justify-content: center;
+}
+
+.finger-wrap {
+    max-width: 736px;
 }
 
 .finger-list {
     flex-direction: row;
     flex-wrap: wrap;
-    row-gap: 40px;
+    row-gap: 72px;
     column-gap: 24px;
-  }
+      }
 
 .finger-item {
     width: calc((100% - 24px) / 2);

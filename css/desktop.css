@@ -182,20 +182,33 @@
        margin-right: 24px;
        }
 
-       .btn-subscribe{
-        margin-top: 0;
+.btn-subscribe{
+    margin-top: 0;
        }
 
 .filters {
     padding-top: 96px;
     padding-bottom: 120px;
 }
+.filters > .container {
+    max-width: 1200px;
+}
 
 .filters-list {
     margin-bottom: 72px;
-       display: flex;
+    display: flex;
     gap: 24px;
-    justify-content: center;
-    }
+       }
 
+.finger-wrap {
+    max-width: 1200px;
+}
+
+.finger-list {
+    row-gap: 48px;
+          }
+          
+.finger-item {
+    width: calc((100% - 48px) / 3);
+}
  }
