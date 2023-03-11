@@ -114,6 +114,10 @@ width: calc((100% - 24px) / 2);
     width: calc((100% - 24px) / 2);
     }
     
+.customers> .container {
+    max-width: 584px;
+}
+
 .customers-list {
     column-gap: 24px;
     }
