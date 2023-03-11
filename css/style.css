@@ -161,7 +161,7 @@ body {
 }
 
 .mobile-menu-close {
-    display: block;
+    display: flex;
     width: 24px;
     height: 24px;
     background: #E7E9FC;
