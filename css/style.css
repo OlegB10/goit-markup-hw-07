@@ -850,8 +850,13 @@ body {
 }
 
 .footer-subscribe{
+   width: 100%;
    margin-left: 0 auto;
     }
+
+.footer-subscribe> .footer-container{
+width: 100%;
+}
 
 .subscribe-title{
     font-size: 16px;
