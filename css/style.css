@@ -99,12 +99,12 @@ body {
 }
 /* logo */
 .header-logo {
-        font-family: 'Raleway', sans-serif;
-        font-weight: 800;
-        font-size: 18px;
-        line-height: 1.33;
-        color: var(--accent-color, #4D5AE5);
-        text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.33;
+    color: var(--accent-color, #4D5AE5);
+    text-decoration: none;
         }
 
 .header-logo-link {
@@ -140,6 +140,7 @@ body {
     padding-top: 24px;
     padding-bottom: 40px;
 }
+
 .mobile-menu > .container {
    max-width: 404px;
    height: 100%;
@@ -147,8 +148,8 @@ body {
    flex-direction: column;
    justify-content: space-between;
    overflow: auto;
-
 }
+
 .mobile-menu.is-hidden {
     opacity: 0;
     visibility: hidden;
@@ -158,7 +159,6 @@ body {
 .mobile-menu.is-hidden .mobile-menu{
     transform: translate(-50%, -50%) scaleX(0);
 }
-
 
 .mobile-menu-close {
     display: block;
@@ -181,6 +181,7 @@ body {
     background: #404BBF;
     fill: #fff;
 }
+
 /* .mobile-link{
     margin-bottom: 32px;
    
@@ -191,8 +192,9 @@ body {
     gap: 32px;
     margin-bottom: 32px;
 }
-.mobile-menu-link{
-     text-decoration: none;
+
+.mobile-menu-link {
+    text-decoration: none;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
@@ -210,18 +212,18 @@ body {
 .mobile-menu-link:is(:hover, :focus) {
     color: #404BBF;
 }
+
 .mobile-menu-link.current {    
     color: #404BBF;                 
 } 
 
-
-.mobile-menu-address {
-    /* display: flex;
+/* .mobile-menu-address {
+    display: flex;
     flex-direction: column;
     gap: 40px;
-    margin-bottom: 48px; */
+    margin-bottom: 48px;
+} */
 
-}
 .mobile-menu-tel-item {
     font-size: 36px;
     line-height: 1.11;
@@ -229,6 +231,7 @@ body {
     display: block;
     margin-bottom: 40px;
 }
+
 .mobile-menu-email-item {
     text-decoration: none;
     font-family: 'Roboto';
@@ -250,10 +253,12 @@ body {
     justify-content: left;
     gap: 56px;
 }
+
 .mobile-soc-item {
     width: 40px;
     height: 40px;
 }
+
 .mobile-soc-link {
     display: flex ;
     width: 100%;
@@ -306,6 +311,7 @@ body {
        ), url(../images/hero-bg-mob-2x.jpg);
   }
 }
+
 .hero-title {
     font-size: 36px;
     line-height: 1.11;

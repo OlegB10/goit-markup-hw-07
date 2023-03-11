@@ -154,12 +154,12 @@ width: calc((100% - 24px) / 2);
           }
 
 .subscribe-input{
-       width: 264px;
-       margin-right: 24px;
+    width: 264px;
+    margin-right: 24px;
        }
 
-       .btn-subscribe{
-        margin-top: 0;
+.btn-subscribe{
+    margin-top: 0;
        }
 
 .finger> .container {
@@ -175,5 +175,5 @@ width: calc((100% - 24px) / 2);
 
 .finger-item {
     width: calc((100% - 24px) / 2);
-
+}
 }
