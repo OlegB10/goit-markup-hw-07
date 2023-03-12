@@ -130,12 +130,17 @@ width: calc((100% - 24px) / 2);
     height: 88px;
     }
 
+.footer-container {
+    max-width: 584px;
+    }
+
 .footer-logo {
     align-items: start;
     margin-bottom: 0;
 }
 
 .footer-tablet-nav{
+    width: 100%;;
     display: flex;
     gap: 24px;
     margin-bottom: 72px;
