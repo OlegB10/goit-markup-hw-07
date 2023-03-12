@@ -94,6 +94,9 @@
 width: calc((100% - 24px) / 2);
 }
 
+.values-subtitle {
+    text-align: left;
+}
 
 .team-item {
     width: calc((100% - 24px) / 2);

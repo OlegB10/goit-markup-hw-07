@@ -82,7 +82,7 @@
     }
 
 .doing {
-    padding-top: 120px;
+    padding-top: 0;
     padding-bottom: 120px;
     margin: 0 auto;
 }
@@ -139,8 +139,9 @@
 .footer-container {
     display: flex;
     flex-direction: unset;
-    
+    max-width: 1200px;
 }
+
 .footer-logo {
     width: 264px;
     margin-right: 120px;
