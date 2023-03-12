@@ -166,6 +166,11 @@ width: calc((100% - 24px) / 2);
     margin-top: 0;
        }
 
+.filters {
+    padding-top: 64px;
+    padding-bottom: 64px;
+} 
+
 .filters > .container {
     max-width: 736px;
     height: 100%;
@@ -173,6 +178,7 @@ width: calc((100% - 24px) / 2);
 
 .filters-list {
   justify-content: center;
+  margin-bottom: 64px;
 }
 
 .finger-wrap {
